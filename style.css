@@ -98,3 +98,56 @@ button:hover {
     background: white;
     color: #ff1493;
 }
+/* PROFILE SECTION */
+.profile {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.bio {
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+}
+
+/* SKILLS */
+.skills {
+    margin-top: 30px;
+}
+
+.skill {
+    margin: 20px auto;
+    width: 60%;
+}
+
+.skill p {
+    text-align: left;
+    color: white;
+}
+
+/* BAR BACKGROUND */
+.bar {
+    background: #333;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* FILL (ANIMATION LOOK) */
+.fill {
+    height: 10px;
+    background: #ff1493;
+}
+
+/* DIFFERENT SKILL LEVELS */
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.design {
+    width: 85%;
+}
