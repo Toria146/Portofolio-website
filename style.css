@@ -84,3 +84,17 @@ p {
 h1, nav {
     box-shadow: 0 0 15px #ff1493;
 }
+button {
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: #ff1493;
+}
