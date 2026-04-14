@@ -154,3 +154,45 @@ button:hover {
 body {
     text-align: center;
 }
+/* CONTACT PAGE */
+.contact-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 10px #ff1493;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: #ff1493;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: #ff1493;
+}
