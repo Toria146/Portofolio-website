@@ -206,3 +206,29 @@ button:hover {
     margin: 20px auto;
 }
 box-shadow: 0 0 10px #ff1493;
+    /* HOME LAYOUT */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 20px;
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+/* TEXT SIDE */
+.text-section {
+    max-width: 400px;
+}
+
+/* INTRO TEXT */
+.intro {
+    font-size: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+/* IMAGE SIDE */
+.image-section {
+    text-align: center;
+}
