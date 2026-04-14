@@ -73,3 +73,18 @@ button {
     font-size: 14px;
     color: #666;
 }
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #00bcd4, #2196f3);
+    color: pink;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
