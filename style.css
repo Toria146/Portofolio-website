@@ -232,3 +232,32 @@ box-shadow: 0 0 10px #ff1493;
 .image-section {
     text-align: center;
 }
+/* PROJECTS LAYOUT */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* PROJECT CARD */
+.project-card {
+    background: #111;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+    /* GLOW ✨ */
+    box-shadow: 0 0 10px #ff1493;
+
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT 🔥 */
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #ff1493;
+}
