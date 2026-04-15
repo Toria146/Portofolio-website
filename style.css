@@ -266,3 +266,6 @@ box-shadow: 0 0 10px #ff1493;
     font-size: 14px;
     margin-top: 8px;
 }
+.project-card {
+    background: red;
+}
